@@ -1,0 +1,51 @@
+* {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: brown;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:focus {
+  outline: none;    
+  border: solid green;
+}
+
+a:active {
+  color: navy;
+}
+
+div.todo-list {
+  border-style: dotted;
+  border-color: black;
+  padding: 0;
+  width: 60%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  font-size: 14px;
+}
+
+ul.sub-item {
+  margin-bottom: 10px;
+}
